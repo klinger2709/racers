@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &106208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 430004}
+  - 33: {fileID: 3327238}
+  - 23: {fileID: 2353462}
+  m_Layer: 0
+  m_Name: Mesh1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &138790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 433824}
+  m_Layer: 0
+  m_Name: sechstesHaus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &430004
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 106208}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 433824}
+  m_RootOrder: 0
+--- !u!4 &433824
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138790}
+  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106709}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: .693197966, y: .693197966, z: .693197966}
+  m_Children:
+  - {fileID: 430004}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!23 &2353462
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 106208}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 95ecdf402bf769848a6f1267bb9117ae, type: 2}
+  - {fileID: 2100000, guid: 2b27d2958c4ed3e489f44f55de2e43f6, type: 2}
+  - {fileID: 2100000, guid: d6d2ee51317d8824588eddb9ed3bec35, type: 2}
+  - {fileID: 2100000, guid: 76ea3039a8fc89848b86d61a312cd7cf, type: 2}
+  - {fileID: 2100000, guid: d9564a56e600e92478c1fd7cdf54f050, type: 2}
+  - {fileID: 2100000, guid: 53c46e7baea617d41bc53f496cf6fe9a, type: 2}
+  - {fileID: 2100000, guid: 5ec83edf780ebdc4abaf2a1f2de13e96, type: 2}
+  - {fileID: 2100000, guid: 896c1d63432276049860854acf07f2ed, type: 2}
+  - {fileID: 2100000, guid: 096f2af48cd707e4b920e42280efc0c7, type: 2}
+  - {fileID: 2100000, guid: 78b4bb2e1522c88438772fe361410143, type: 2}
+  - {fileID: 2100000, guid: 93d466dd081f0f94e9e62f730ce94f34, type: 2}
+  - {fileID: 2100000, guid: 749634c8178afd04d9b221d6d6f8092c, type: 2}
+  - {fileID: 2100000, guid: cb98e6ddd08377b46ba4b11a6e1ad567, type: 2}
+  - {fileID: 2100000, guid: a4e768d6014acd44fafd4fdadf67b87b, type: 2}
+  - {fileID: 2100000, guid: 4762862709d622c4dabb7b224b64bd57, type: 2}
+  - {fileID: 2100000, guid: 0bd013c577bab8243818de0c22449886, type: 2}
+  - {fileID: 2100000, guid: 108f7bce29cf85746a789dccd5d51d2d, type: 2}
+  - {fileID: 2100000, guid: 17b2630a04619ac479ae8294aafd72a3, type: 2}
+  - {fileID: 2100000, guid: 5af1799b67dc3004da36ba2b3b8095fa, type: 2}
+  - {fileID: 2100000, guid: 59a656395a2d1c14d89ad458fef6ef76, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3327238
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 106208}
+  m_Mesh: {fileID: 4300000, guid: a7776b94debe0644984370c906620896, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 138790}
+  m_IsPrefabParent: 1
